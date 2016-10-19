@@ -1,7 +1,7 @@
 # ZSImagePickerController
 相册、照片选择器（多选、单选）
 
-// photoList  相册列表的宽度
+// photoList  相册列表的宽度 \n
 static const CGFloat   minPhotoListWidth = 80;
 
 // AlnumsMaxSelectedNumber  最多可以选择的照片数量
