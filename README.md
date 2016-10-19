@@ -62,5 +62,5 @@ static const CGFloat selectedButtonHeight = 20;
 当设置为YES的时候，需要遵循的协议是zs_delegate，以方便调用自定义多选相册的代理方法。
 - (void)zs_imagePickerController:(nullable ZSImagePickerController *)picker didFinishPickingImage:(nullable NSDictionary<NSString *,id> *)info;
 点击完成后将选中的相片的PHAsset对象返回
-- (void)zs_imagePickerController:(nullable ZSImagePickerController *)picker beyondMaxSelectedPhotoCount:(NSInteger)count;、
-当选择的相片数量超过y最大限制的时候返回
+- (void)zs_imagePickerController:(nullable ZSImagePickerController *)picker beyondMaxSelectedPhotoCount:(NSInteger)count;
+当选择的相片数量超过最大限制的时候返回
