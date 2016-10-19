@@ -40,7 +40,7 @@ static const CGFloat selectedButtonHeight = 20;
 # kCELLHEIGHT、kCELLWINDTH  控制选择按钮的坐标 默认在右上角
  kSELECTEDBUTTONFRAME CGRectMake(kCELLWINDTH - selectedButtonWidth,0,selectedButtonWidth,selectedButtonHeight)
  
-# imageNumberColor (return UIColor *) 选中的数量d标签的背景颜色和文字x颜色
+# imageNumberColor (return UIColor *) 选中的数量标签的背景颜色和文字颜色
  kIMAGENUMBERBACKGROUNDCOLOR RGBA(30, 180, 0, 1)
  kIMAGENUMBERTEXTCOLOR [UIColor whiteColor]
 
@@ -50,7 +50,7 @@ static const CGFloat selectedButtonHeight = 20;
 # lookButtonCOlor 预览按钮的文字颜色
  kLOOKBUTTONCOLOR [UIColor blackColor]
  
-## ZSImagePickerController.h文件中提供了delegate方法，还有1个参数
+## ZSImagePickerController.h文件中提供了delegate方法和一个参数
  
  初始化和显示ZSImagePickerController控制器的方法
  ZSImagePickerController *imagePicker = [[ZSImagePickerController alloc]init];
